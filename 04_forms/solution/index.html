@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <script src="/index.ts" type="module"></script>
+        <title>21F Starter</title>
+    </head>
+    <body>
+        <form id="add">
+            <fieldset>
+                <legend>Add a movie</legend>
+                <label>
+                    Title
+                    <input
+                        type="text"
+                        name="title"
+                        placeholder="Totoro"
+                        required
+                    />
+                </label>
+                <label>
+                    Year
+                    <input
+                        type="number"
+                        name="year"
+                        placeholder="1998"
+                        required
+                    />
+                </label>
+                <button type="submit">Add</button>
+            </fieldset>
+        </form>
+        <form id="search">
+            <fieldset>
+                <legend>Search a movie</legend>
+                <label>
+                    Title or year
+                    <input
+                        type="text"
+                        name="search"
+                        placeholder="Totoro or 1998"
+                    />
+                </label>
+                <button type="submit">Search</button>
+            </fieldset>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                </tr>
+            <thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+</html>
